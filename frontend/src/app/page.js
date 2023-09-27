@@ -29,6 +29,8 @@ export default function Home() {
     <button onClick={changeName}>Click Me</button>
     <button onClick={()=>{navigateTo("/login")}} style={{display: "block", marginTop : "1rem"}}>Go to Login Page</button>
     <button onClick={()=>{navigateTo("/about")}} style={{display: "block", marginTop : "1rem"}}>Go to About Page</button>
+    <button onClick={()=>{navigateTo("/about/aboutStudent")}} style={{display: "block", marginTop : "1rem"}}>Go to aboutStudent Page</button>
+    <button onClick={()=>{navigateTo("/about/aboutCollege")}} style={{display: "block", marginTop : "1rem"}}>Go to aboutCollege Page</button>
     </main>
   )
 }
